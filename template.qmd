@@ -10,6 +10,8 @@ format:
     code-tools: true
     code-line-numbers: true
     embed-resources: true
+    include-in-header: 
+      - file: "math.jax"
 knitr:
   opts_chunk:
     echo: true
